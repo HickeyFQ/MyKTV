@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{44C86827-A4FF-40F2-9DC0-7387C5D4E382}</ProjectGuid>
+    <ProjectGuid>{A2B52D60-CB23-46A9-B924-85EB0790CC22}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Client</RootNamespace>
-    <AssemblyName>Client</AssemblyName>
+    <RootNamespace>text</RootNamespace>
+    <AssemblyName>text</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -46,62 +46,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DBHelper.cs" />
-    <Compile Include="frmMain.cs">
+    <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmMain.Designer.cs">
-      <DependentUpon>frmMain.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmOrderBySinger.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmOrderBySinger.Designer.cs">
-      <DependentUpon>frmOrderBySinger.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmOrderBySongName.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmOrderBySongName.Designer.cs">
-      <DependentUpon>frmOrderBySongName.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmOrderBysongType.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmOrderBysongType.Designer.cs">
-      <DependentUpon>frmOrderBysongType.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmOrderByWoedCount.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmOrderByWoedCount.Designer.cs">
-      <DependentUpon>frmOrderByWoedCount.cs</DependentUpon>
-    </Compile>
-    <Compile Include="FrmOrderdSongList.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FrmOrderdSongList.Designer.cs">
-      <DependentUpon>FrmOrderdSongList.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmPlay.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmPlay.Designer.cs">
-      <DependentUpon>frmPlay.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmSongList.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmSongList.Designer.cs">
-      <DependentUpon>frmSongList.cs</DependentUpon>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="frmPlay.resx">
-      <DependentUpon>frmPlay.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmSongList.resx">
-      <DependentUpon>frmSongList.cs</DependentUpon>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

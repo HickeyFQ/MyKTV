@@ -95,8 +95,27 @@
     <Compile Include="frmSongList.Designer.cs">
       <DependentUpon>frmSongList.cs</DependentUpon>
     </Compile>
+    <Compile Include="KTVUtil.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOrderBySinger.resx">
+      <DependentUpon>frmOrderBySinger.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOrderBySongName.resx">
+      <DependentUpon>frmOrderBySongName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOrderBysongType.resx">
+      <DependentUpon>frmOrderBysongType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOrderByWoedCount.resx">
+      <DependentUpon>frmOrderByWoedCount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmOrderdSongList.resx">
+      <DependentUpon>FrmOrderdSongList.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmPlay.resx">
       <DependentUpon>frmPlay.cs</DependentUpon>
     </EmbeddedResource>

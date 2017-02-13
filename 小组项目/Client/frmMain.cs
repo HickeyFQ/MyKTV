@@ -34,7 +34,8 @@ namespace Client
         /// <param name="e"></param>
         private void label7_Click(object sender, EventArgs e)
         {
-
+            frmOrderBySinger singer = new frmOrderBySinger();
+            singer.ShowDialog();
         }
         /// <summary>
         /// 分类点歌
@@ -83,12 +84,13 @@ namespace Client
 
         }
         /// <summary>
-        /// 其他
+        /// 字数点歌
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
         private void label3_Click(object sender, EventArgs e)
         {
+            frmOrderByWoedCount count = new frmOrderByWoedCount();
 
         }
         /// <summary>
@@ -170,6 +172,11 @@ namespace Client
         private void frmMain_Load(object sender, EventArgs e)
         {
             main_player.URL = "";
+        }
+
+        private void main_player_DoubleClickEvent(object sender, AxWMPLib._WMPOCXEvents_DoubleClickEvent e)
+        {
+            main_player.fullScreen = true;
         }
     }
 }

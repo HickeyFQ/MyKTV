@@ -17,6 +17,8 @@ namespace Client
             InitializeComponent();
         }
         public int type = 0;
+        frmShowSong songInfo = new frmShowSong();
+        
         /// <summary>
         /// 情歌
         /// </summary>
@@ -24,7 +26,8 @@ namespace Client
         /// <param name="e"></param>
         private void label1_Click(object sender, EventArgs e)
         {
-            type = 2;
+             frmShowSong.i = 2;
+            songInfo.ShowDialog();
         }
         /// <summary>
         /// 民谣
@@ -33,7 +36,8 @@ namespace Client
         /// <param name="e"></param>
         private void label2_Click(object sender, EventArgs e)
         {
-            type = 3;
+            frmShowSong.i = 3;
+            songInfo.ShowDialog();
         }
         /// <summary>
         ///流行
@@ -42,7 +46,8 @@ namespace Client
         /// <param name="e"></param>
         private void label3_Click(object sender, EventArgs e)
         {
-            type = 1;
+            frmShowSong.i = 1;
+            songInfo.ShowDialog();
         }
         /// <summary>
         /// 京剧
@@ -51,7 +56,8 @@ namespace Client
         /// <param name="e"></param>
         private void label6_Click(object sender, EventArgs e)
         {
-            type = 4;
+            frmShowSong.i = 4;
+            songInfo.ShowDialog();
         }
         /// <summary>
         /// 革命军歌
@@ -60,16 +66,19 @@ namespace Client
         /// <param name="e"></param>
         private void label5_Click(object sender, EventArgs e)
         {
-            type = 5;
+            frmShowSong.i = 5;
+            songInfo.ShowDialog();
         }
         /// <summary>
         /// 生日歌曲
+        /// 
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
         private void label4_Click(object sender, EventArgs e)
         {
-            type = 6;
+            frmShowSong.i = 6;
+            songInfo.ShowDialog();
         }
     }
 }

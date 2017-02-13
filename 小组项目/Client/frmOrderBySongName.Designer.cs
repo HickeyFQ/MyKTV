@@ -56,23 +56,29 @@
             this.Y = new System.Windows.Forms.Label();
             this.Z = new System.Windows.Forms.Label();
             this.lbl_name = new System.Windows.Forms.Label();
-            this.label28 = new System.Windows.Forms.Label();
+            this.lbl_name1 = new System.Windows.Forms.Label();
             this.label29 = new System.Windows.Forms.Label();
-            this.label30 = new System.Windows.Forms.Label();
+            this.lbl_name2 = new System.Windows.Forms.Label();
             this.label31 = new System.Windows.Forms.Label();
-            this.label32 = new System.Windows.Forms.Label();
+            this.lbl_name3 = new System.Windows.Forms.Label();
             this.label33 = new System.Windows.Forms.Label();
-            this.label34 = new System.Windows.Forms.Label();
+            this.lbl_name4 = new System.Windows.Forms.Label();
             this.label35 = new System.Windows.Forms.Label();
-            this.label36 = new System.Windows.Forms.Label();
+            this.lbl_name5 = new System.Windows.Forms.Label();
             this.label37 = new System.Windows.Forms.Label();
-            this.label38 = new System.Windows.Forms.Label();
+            this.lbl_ye = new System.Windows.Forms.Label();
             this.label39 = new System.Windows.Forms.Label();
             this.label40 = new System.Windows.Forms.Label();
-            this.label41 = new System.Windows.Forms.Label();
+            this.lbl_name6 = new System.Windows.Forms.Label();
             this.label42 = new System.Windows.Forms.Label();
             this.label44 = new System.Windows.Forms.Label();
             this.label43 = new System.Windows.Forms.Label();
+            this.lbl_singer1 = new System.Windows.Forms.Label();
+            this.lbl_singer2 = new System.Windows.Forms.Label();
+            this.lbl_singer3 = new System.Windows.Forms.Label();
+            this.lbl_singer4 = new System.Windows.Forms.Label();
+            this.lbl_singer5 = new System.Windows.Forms.Label();
+            this.lbl_singer6 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // A
@@ -449,15 +455,17 @@
             this.lbl_name.Size = new System.Drawing.Size(157, 35);
             this.lbl_name.TabIndex = 1;
             this.lbl_name.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lbl_name.Enter += new System.EventHandler(this.lbl_name_Enter);
             // 
-            // label28
+            // lbl_name1
             // 
-            this.label28.BackColor = System.Drawing.Color.Transparent;
-            this.label28.Image = ((System.Drawing.Image)(resources.GetObject("label28.Image")));
-            this.label28.Location = new System.Drawing.Point(105, 121);
-            this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(654, 36);
-            this.label28.TabIndex = 2;
+            this.lbl_name1.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_name1.Image = ((System.Drawing.Image)(resources.GetObject("lbl_name1.Image")));
+            this.lbl_name1.Location = new System.Drawing.Point(105, 121);
+            this.lbl_name1.Name = "lbl_name1";
+            this.lbl_name1.Size = new System.Drawing.Size(463, 36);
+            this.lbl_name1.TabIndex = 2;
+            this.lbl_name1.Click += new System.EventHandler(this.lbl_name1_Click);
             // 
             // label29
             // 
@@ -471,14 +479,15 @@
             this.label29.Text = "1";
             this.label29.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label30
+            // lbl_name2
             // 
-            this.label30.BackColor = System.Drawing.Color.Transparent;
-            this.label30.Image = ((System.Drawing.Image)(resources.GetObject("label30.Image")));
-            this.label30.Location = new System.Drawing.Point(105, 192);
-            this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(654, 36);
-            this.label30.TabIndex = 2;
+            this.lbl_name2.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_name2.Image = ((System.Drawing.Image)(resources.GetObject("lbl_name2.Image")));
+            this.lbl_name2.Location = new System.Drawing.Point(105, 192);
+            this.lbl_name2.Name = "lbl_name2";
+            this.lbl_name2.Size = new System.Drawing.Size(463, 36);
+            this.lbl_name2.TabIndex = 2;
+            this.lbl_name2.Click += new System.EventHandler(this.lbl_name2_Click);
             // 
             // label31
             // 
@@ -492,14 +501,15 @@
             this.label31.Text = "2";
             this.label31.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label32
+            // lbl_name3
             // 
-            this.label32.BackColor = System.Drawing.Color.Transparent;
-            this.label32.Image = ((System.Drawing.Image)(resources.GetObject("label32.Image")));
-            this.label32.Location = new System.Drawing.Point(105, 264);
-            this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(654, 36);
-            this.label32.TabIndex = 2;
+            this.lbl_name3.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_name3.Image = ((System.Drawing.Image)(resources.GetObject("lbl_name3.Image")));
+            this.lbl_name3.Location = new System.Drawing.Point(105, 264);
+            this.lbl_name3.Name = "lbl_name3";
+            this.lbl_name3.Size = new System.Drawing.Size(463, 36);
+            this.lbl_name3.TabIndex = 2;
+            this.lbl_name3.Click += new System.EventHandler(this.lbl_name3_Click);
             // 
             // label33
             // 
@@ -513,14 +523,15 @@
             this.label33.Text = "3";
             this.label33.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label34
+            // lbl_name4
             // 
-            this.label34.BackColor = System.Drawing.Color.Transparent;
-            this.label34.Image = ((System.Drawing.Image)(resources.GetObject("label34.Image")));
-            this.label34.Location = new System.Drawing.Point(105, 336);
-            this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(654, 36);
-            this.label34.TabIndex = 2;
+            this.lbl_name4.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_name4.Image = ((System.Drawing.Image)(resources.GetObject("lbl_name4.Image")));
+            this.lbl_name4.Location = new System.Drawing.Point(105, 336);
+            this.lbl_name4.Name = "lbl_name4";
+            this.lbl_name4.Size = new System.Drawing.Size(463, 36);
+            this.lbl_name4.TabIndex = 2;
+            this.lbl_name4.Click += new System.EventHandler(this.lbl_name4_Click);
             // 
             // label35
             // 
@@ -534,14 +545,15 @@
             this.label35.Text = "4";
             this.label35.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label36
+            // lbl_name5
             // 
-            this.label36.BackColor = System.Drawing.Color.Transparent;
-            this.label36.Image = ((System.Drawing.Image)(resources.GetObject("label36.Image")));
-            this.label36.Location = new System.Drawing.Point(105, 406);
-            this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(654, 36);
-            this.label36.TabIndex = 2;
+            this.lbl_name5.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_name5.Image = ((System.Drawing.Image)(resources.GetObject("lbl_name5.Image")));
+            this.lbl_name5.Location = new System.Drawing.Point(105, 406);
+            this.lbl_name5.Name = "lbl_name5";
+            this.lbl_name5.Size = new System.Drawing.Size(463, 36);
+            this.lbl_name5.TabIndex = 2;
+            this.lbl_name5.Click += new System.EventHandler(this.lbl_name5_Click);
             // 
             // label37
             // 
@@ -555,18 +567,18 @@
             this.label37.Text = "5";
             this.label37.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label38
+            // lbl_ye
             // 
-            this.label38.BackColor = System.Drawing.Color.Transparent;
-            this.label38.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label38.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label38.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label38.Location = new System.Drawing.Point(177, 540);
-            this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(105, 35);
-            this.label38.TabIndex = 1;
-            this.label38.Text = "第0/0页";
-            this.label38.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lbl_ye.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_ye.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lbl_ye.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.lbl_ye.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lbl_ye.Location = new System.Drawing.Point(177, 540);
+            this.lbl_ye.Name = "lbl_ye";
+            this.lbl_ye.Size = new System.Drawing.Size(105, 35);
+            this.lbl_ye.TabIndex = 1;
+            this.lbl_ye.Text = "第0/0页";
+            this.lbl_ye.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label39
             // 
@@ -593,15 +605,17 @@
             this.label40.TabIndex = 0;
             this.label40.Text = "下页";
             this.label40.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label40.Click += new System.EventHandler(this.label40_Click);
             // 
-            // label41
+            // lbl_name6
             // 
-            this.label41.BackColor = System.Drawing.Color.Transparent;
-            this.label41.Image = ((System.Drawing.Image)(resources.GetObject("label41.Image")));
-            this.label41.Location = new System.Drawing.Point(105, 479);
-            this.label41.Name = "label41";
-            this.label41.Size = new System.Drawing.Size(654, 36);
-            this.label41.TabIndex = 2;
+            this.lbl_name6.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_name6.Image = ((System.Drawing.Image)(resources.GetObject("lbl_name6.Image")));
+            this.lbl_name6.Location = new System.Drawing.Point(105, 479);
+            this.lbl_name6.Name = "lbl_name6";
+            this.lbl_name6.Size = new System.Drawing.Size(463, 36);
+            this.lbl_name6.TabIndex = 2;
+            this.lbl_name6.Click += new System.EventHandler(this.lbl_name6_Click);
             // 
             // label42
             // 
@@ -643,6 +657,60 @@
             this.label43.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label43.Click += new System.EventHandler(this.label43_Click);
             // 
+            // lbl_singer1
+            // 
+            this.lbl_singer1.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_singer1.Image = ((System.Drawing.Image)(resources.GetObject("lbl_singer1.Image")));
+            this.lbl_singer1.Location = new System.Drawing.Point(571, 121);
+            this.lbl_singer1.Name = "lbl_singer1";
+            this.lbl_singer1.Size = new System.Drawing.Size(124, 36);
+            this.lbl_singer1.TabIndex = 2;
+            // 
+            // lbl_singer2
+            // 
+            this.lbl_singer2.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_singer2.Image = ((System.Drawing.Image)(resources.GetObject("lbl_singer2.Image")));
+            this.lbl_singer2.Location = new System.Drawing.Point(571, 192);
+            this.lbl_singer2.Name = "lbl_singer2";
+            this.lbl_singer2.Size = new System.Drawing.Size(124, 36);
+            this.lbl_singer2.TabIndex = 2;
+            // 
+            // lbl_singer3
+            // 
+            this.lbl_singer3.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_singer3.Image = ((System.Drawing.Image)(resources.GetObject("lbl_singer3.Image")));
+            this.lbl_singer3.Location = new System.Drawing.Point(571, 264);
+            this.lbl_singer3.Name = "lbl_singer3";
+            this.lbl_singer3.Size = new System.Drawing.Size(124, 36);
+            this.lbl_singer3.TabIndex = 2;
+            // 
+            // lbl_singer4
+            // 
+            this.lbl_singer4.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_singer4.Image = ((System.Drawing.Image)(resources.GetObject("lbl_singer4.Image")));
+            this.lbl_singer4.Location = new System.Drawing.Point(571, 336);
+            this.lbl_singer4.Name = "lbl_singer4";
+            this.lbl_singer4.Size = new System.Drawing.Size(124, 36);
+            this.lbl_singer4.TabIndex = 2;
+            // 
+            // lbl_singer5
+            // 
+            this.lbl_singer5.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_singer5.Image = ((System.Drawing.Image)(resources.GetObject("lbl_singer5.Image")));
+            this.lbl_singer5.Location = new System.Drawing.Point(571, 406);
+            this.lbl_singer5.Name = "lbl_singer5";
+            this.lbl_singer5.Size = new System.Drawing.Size(124, 36);
+            this.lbl_singer5.TabIndex = 2;
+            // 
+            // lbl_singer6
+            // 
+            this.lbl_singer6.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_singer6.Image = ((System.Drawing.Image)(resources.GetObject("lbl_singer6.Image")));
+            this.lbl_singer6.Location = new System.Drawing.Point(571, 479);
+            this.lbl_singer6.Name = "lbl_singer6";
+            this.lbl_singer6.Size = new System.Drawing.Size(124, 36);
+            this.lbl_singer6.TabIndex = 2;
+            // 
             // frmOrderBySongName
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
@@ -657,13 +725,19 @@
             this.Controls.Add(this.label33);
             this.Controls.Add(this.label31);
             this.Controls.Add(this.label29);
-            this.Controls.Add(this.label41);
-            this.Controls.Add(this.label36);
-            this.Controls.Add(this.label34);
-            this.Controls.Add(this.label32);
-            this.Controls.Add(this.label30);
-            this.Controls.Add(this.label28);
-            this.Controls.Add(this.label38);
+            this.Controls.Add(this.lbl_singer6);
+            this.Controls.Add(this.lbl_name6);
+            this.Controls.Add(this.lbl_singer5);
+            this.Controls.Add(this.lbl_name5);
+            this.Controls.Add(this.lbl_singer4);
+            this.Controls.Add(this.lbl_name4);
+            this.Controls.Add(this.lbl_singer3);
+            this.Controls.Add(this.lbl_name3);
+            this.Controls.Add(this.lbl_singer2);
+            this.Controls.Add(this.lbl_singer1);
+            this.Controls.Add(this.lbl_name2);
+            this.Controls.Add(this.lbl_name1);
+            this.Controls.Add(this.lbl_ye);
             this.Controls.Add(this.lbl_name);
             this.Controls.Add(this.Y);
             this.Controls.Add(this.T);
@@ -733,22 +807,28 @@
         private System.Windows.Forms.Label Y;
         private System.Windows.Forms.Label Z;
         private System.Windows.Forms.Label lbl_name;
-        private System.Windows.Forms.Label label28;
+        private System.Windows.Forms.Label lbl_name1;
         private System.Windows.Forms.Label label29;
-        private System.Windows.Forms.Label label30;
+        private System.Windows.Forms.Label lbl_name2;
         private System.Windows.Forms.Label label31;
-        private System.Windows.Forms.Label label32;
+        private System.Windows.Forms.Label lbl_name3;
         private System.Windows.Forms.Label label33;
-        private System.Windows.Forms.Label label34;
+        private System.Windows.Forms.Label lbl_name4;
         private System.Windows.Forms.Label label35;
-        private System.Windows.Forms.Label label36;
+        private System.Windows.Forms.Label lbl_name5;
         private System.Windows.Forms.Label label37;
-        private System.Windows.Forms.Label label38;
+        private System.Windows.Forms.Label lbl_ye;
         private System.Windows.Forms.Label label39;
         private System.Windows.Forms.Label label40;
-        private System.Windows.Forms.Label label41;
+        private System.Windows.Forms.Label lbl_name6;
         private System.Windows.Forms.Label label42;
         private System.Windows.Forms.Label label44;
         private System.Windows.Forms.Label label43;
+        private System.Windows.Forms.Label lbl_singer1;
+        private System.Windows.Forms.Label lbl_singer2;
+        private System.Windows.Forms.Label lbl_singer3;
+        private System.Windows.Forms.Label lbl_singer4;
+        private System.Windows.Forms.Label lbl_singer5;
+        private System.Windows.Forms.Label lbl_singer6;
     }
 }

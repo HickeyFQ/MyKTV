@@ -16,63 +16,160 @@ namespace Client
         {
             InitializeComponent();
         }
-        private bool voo = false;//标识 播放器
         /// <summary>
-        /// 窗体加载
+        /// 拼音点歌
+        /// 
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-        private void frmMain_Load(object sender, EventArgs e)
-        {
-            voo = false;
-        }
-        /// <summary>
-        /// 歌曲名称点歌
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
-        private void btnSongName_Click(object sender, EventArgs e)
+        private void label6_Click(object sender, EventArgs e)
         {
             frmOrderBySongName name = new frmOrderBySongName();
             name.ShowDialog();
+        }
+        /// <summary>
+        /// 歌星点歌
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void label7_Click(object sender, EventArgs e)
+        {
+
+        }
+        /// <summary>
+        /// 分类点歌
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void label8_Click(object sender, EventArgs e)
+        {
+            frmOrderBysongType type = new frmOrderBysongType();
+            type.ShowDialog();
         }
         /// <summary>
         /// 语种点歌
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-        private void btnTypename_Click(object sender, EventArgs e)
-        {
-            
-        }
-        /// <summary>
-        /// 歌曲排行点歌
-        /// </summary>  
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
-        private void  btnPlay_Click(object sender, EventArgs e)
+        private void label9_Click(object sender, EventArgs e)
         {
 
         }
-        /// <   summary>
-        /// 单击 Main_Player 播放器
-        /// 使其最大化转接到  全屏播放界面
+        /// <summary>
+        /// ＤＩＳＣＯ
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-        private void Main_player_ClickEvent(object sender, AxWMPLib._WMPOCXEvents_ClickEvent e)
+        private void label5_Click(object sender, EventArgs e)
         {
-            frmPlay play = new frmPlay();
-            play.ShowDialog();
-            //if (voo == true)
-            //{
-            //    Main_player.fullScreen = false;//是否全屏
-            //}
-            //else if (voo == false)
-            //{
-            //    Main_player.fullScreen = true;//是否全屏
-            //}
 
+        }
+        /// <summary>
+        /// 歌曲排行
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+        /// <summary>
+        /// 手写点歌
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+        /// <summary>
+        /// 其他
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+        /// <summary>
+        /// 重播
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void label20_Click(object sender, EventArgs e)
+        {
+            main_player.Ctlcontrols.stop();
+            main_player.Ctlcontrols.play();
+        }
+        /// <summary>
+        /// 暂停
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void label21_Click(object sender, EventArgs e)
+        {
+            main_player.Ctlcontrols.pause();
+        }
+        /// <summary>
+        /// 切歌
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void label22_Click(object sender, EventArgs e)
+        {
+
+        }
+        /// <summary>
+        /// 音量减
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void label24_Click(object sender, EventArgs e)
+        {
+            main_player.settings.volume -= 5;
+        }
+        /// <summary>
+        /// 音量加
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void label25_Click(object sender, EventArgs e)
+        {
+            main_player.settings.volume += 5;
+        }
+        /// <summary>
+        /// 静音
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void label23_Click(object sender, EventArgs e)
+        {
+            if (lblJing.Text == "静音")
+            {
+                main_player.settings.mute = false;
+                lblJing.ForeColor = Color.Red;
+            }
+            else if (lblJing.ForeColor == Color.Red) {
+
+                main_player.settings.mute = true;
+                lblJing.ForeColor = Color.Black;
+            }
+            
+        }
+        /// <summary>
+        /// 主菜单
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void label23_Click_1(object sender, EventArgs e)
+        {
+            frmMain main = new frmMain();
+            main.Show();
+        }
+
+        private void frmMain_Load(object sender, EventArgs e)
+        {
+            main_player.URL = "";
         }
     }
 }

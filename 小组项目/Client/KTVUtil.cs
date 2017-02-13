@@ -10,7 +10,7 @@ namespace Client
     {
         public static string singerPhonoPath = ""; //歌手图片存放 路径
 
-        public static string songPath = "";  //歌曲存放路径
+        public static string songPath = @"E:\CODE\KTV结业项目\images\Song";  //歌曲存放路径
 
     }
 }

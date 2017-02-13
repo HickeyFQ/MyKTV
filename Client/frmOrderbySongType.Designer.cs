@@ -1,6 +1,6 @@
 ﻿namespace Client
 {
-    partial class FrmOrderdSongList
+    partial class frmOrderbySongType
     {
         /// <summary>
         /// Required designer variable.
@@ -28,19 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.SuspendLayout();
-            // 
-            // FrmOrderdSongList
-            // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.components = new System.ComponentModel.Container();
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1366, 768);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "FrmOrderdSongList";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "FrmOrderdSongList";
-            this.ResumeLayout(false);
-
+            this.Text = "frmOrderbySongType";
         }
 
         #endregion

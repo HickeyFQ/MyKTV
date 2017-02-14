@@ -79,6 +79,7 @@
             this.lbl_singer4 = new System.Windows.Forms.Label();
             this.lbl_singer5 = new System.Windows.Forms.Label();
             this.lbl_singer6 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // A
@@ -711,6 +712,16 @@
             this.lbl_singer6.Size = new System.Drawing.Size(124, 36);
             this.lbl_singer6.TabIndex = 2;
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(1001, 639);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 3;
+            this.button1.Text = "关闭";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // frmOrderBySongName
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
@@ -719,6 +730,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1366, 768);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.label42);
             this.Controls.Add(this.label37);
             this.Controls.Add(this.label35);
@@ -830,5 +842,6 @@
         private System.Windows.Forms.Label lbl_singer4;
         private System.Windows.Forms.Label lbl_singer5;
         private System.Windows.Forms.Label lbl_singer6;
+        private System.Windows.Forms.Button button1;
     }
 }

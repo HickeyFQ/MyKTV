@@ -251,5 +251,11 @@ namespace Client
         {
             song.ADD(lbl_name6.Text);
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            frmMain main = new frmMain();
+            main.ShowDialog();
+        }
     }
 }

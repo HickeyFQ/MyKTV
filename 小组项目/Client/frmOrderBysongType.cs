@@ -80,5 +80,11 @@ namespace Client
             frmShowSong.i = 6;
             songInfo.ShowDialog();
         }
+
+        private void btn_close_Click(object sender, EventArgs e)
+        {
+            frmMain main = new frmMain();
+            main.ShowDialog();
+        }
     }
 }
